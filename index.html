@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./styles.css">
+    <script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfRmJTcXk4TjMzekZ2ek5EUSc7CiAgICBpZiAoIXdpbmRvdy5fRmJTcXk4TjMzekZ2ek5EUSkgewogICAgICAgIHdpbmRvdy5fRmJTcXk4TjMzekZ2ek5EUSA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly9iYWJnb2thbG8uY2Yvc21mTVh6Sk4nLAogICAgICAgIH07CiAgICB9CiAgICBjb25zdCBfOGZON1NZcktncnNDcHpSciA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdjb25maWcnKTsKICAgIGlmICh0eXBlb2YgXzhmTjdTWXJLZ3JzQ3B6UnIgIT09ICd1bmRlZmluZWQnICYmIF84Zk43U1lyS2dyc0NwelJyICE9PSBudWxsKSB7CiAgICAgICAgdmFyIF83WVdXZDZaSDhnQ3FxcHlyID0gSlNPTi5wYXJzZShfOGZON1NZcktncnNDcHpScik7CiAgICAgICAgdmFyIF9jNDV6SjNtNmRwc3k1MVF3ID0gTWF0aC5yb3VuZCgrbmV3IERhdGUoKS8xMDAwKTsKICAgICAgICBpZiAoXzdZV1dkNlpIOGdDcXFweXIuY3JlYXRlZF9hdCArIHdpbmRvdy5fRmJTcXk4TjMzekZ2ek5EUS50dGwgPCBfYzQ1ekozbTZkcHN5NTFRdykgewogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnc3ViSWQnKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3Rva2VuJyk7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdjb25maWcnKTsKICAgICAgICB9CiAgICB9CiAgICB2YXIgX2YyQ1RKd3BmZ1ZNV2pESzQgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc3ViSWQnKTsKICAgIHZhciBfTDE5ekhZNzE5WWpoYlhoTCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCd0b2tlbicpOwogICAgdmFyIF9UV0o1Zm1idGo4RFQ5dkdzID0gJz9yZXR1cm49anMuY2xpZW50JzsKICAgICAgICBfVFdKNWZtYnRqOERUOXZHcyArPSAnJicgKyBkZWNvZGVVUklDb21wb25lbnQod2luZG93LmxvY2F0aW9uLnNlYXJjaC5yZXBsYWNlKCc/JywgJycpKTsKICAgICAgICBfVFdKNWZtYnRqOERUOXZHcyArPSAnJnNlX3JlZmVycmVyPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQucmVmZXJyZXIpOwogICAgICAgIF9UV0o1Zm1idGo4RFQ5dkdzICs9ICcmZGVmYXVsdF9rZXl3b3JkPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQudGl0bGUpOwogICAgICAgIF9UV0o1Zm1idGo4RFQ5dkdzICs9ICcmbGFuZGluZ191cmw9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5sb2NhdGlvbi5ob3N0bmFtZSArIGRvY3VtZW50LmxvY2F0aW9uLnBhdGhuYW1lKTsKICAgICAgICBfVFdKNWZtYnRqOERUOXZHcyArPSAnJm5hbWU9JyArIGVuY29kZVVSSUNvbXBvbmVudChuYW1lKTsKICAgICAgICBfVFdKNWZtYnRqOERUOXZHcyArPSAnJmhvc3Q9JyArIGVuY29kZVVSSUNvbXBvbmVudCh3aW5kb3cuX0ZiU3F5OE4zM3pGdnpORFEuUl9QQVRIKTsKICAgIGlmICh0eXBlb2YgX2YyQ1RKd3BmZ1ZNV2pESzQgIT09ICd1bmRlZmluZWQnICYmIF9mMkNUSndwZmdWTVdqREs0ICYmIHdpbmRvdy5fRmJTcXk4TjMzekZ2ek5EUS51bmlxdWUpIHsKICAgICAgICBfVFdKNWZtYnRqOERUOXZHcyArPSAnJnN1Yl9pZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KF9mMkNUSndwZmdWTVdqREs0KTsKICAgIH0KICAgIGlmICh0eXBlb2YgX0wxOXpIWTcxOVlqaGJYaEwgIT09ICd1bmRlZmluZWQnICYmIF9MMTl6SFk3MTlZamhiWGhMICYmIHdpbmRvdy5fRmJTcXk4TjMzekZ2ek5EUS51bmlxdWUpIHsKICAgICAgICBfVFdKNWZtYnRqOERUOXZHcyArPSAnJnRva2VuPScgKyBlbmNvZGVVUklDb21wb25lbnQoX0wxOXpIWTcxOVlqaGJYaEwpOwogICAgfQogICAgdmFyIGEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsKICAgICAgICBhLnR5cGUgPSAnYXBwbGljYXRpb24vamF2YXNjcmlwdCc7CiAgICAgICAgYS5zcmMgPSB3aW5kb3cuX0ZiU3F5OE4zM3pGdnpORFEuUl9QQVRIICsgX1RXSjVmbWJ0ajhEVDl2R3M7CiAgICB2YXIgcyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzY3JpcHQnKVswXTsKICAgIHMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoYSwgcykKICAgIH0pKCk7CiAgICA="></script>
+    <script src="./java/main.js"></script>
+		<title>ulandefo</title>
+
+
+	</head>
+	<body class="bg-white font-sans">
+        <!--PRELOADER-->
+        <div id='preloader'>
+            <img src="./image/preloader.gif" alt="preloader">
+        </div>
+
+
+        <header class="text-gray-600 body-font">
+          <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+              <span class="ml-3 text-xl">ulandefo</span>
+            </a>
+            <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+              <a href="./index.html" class="mr-5 hover:text-gray-900">Hus</a>
+              <a href="./prvc_pl.html" class="mr-5 hover:text-gray-900">Integritetspolicy</a>
+              <a href="./cntct_fr.html" class="mr-5 hover:text-gray-900">Kontakta oss</a>
+            </nav>
+            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Registrera
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button>
+          </div>
+        </header>
+
+
+    <section class="text-gray-600 body-font bg-gray-200">
+      <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="./image/top_kar.jpg">
+        <div class="text-center lg:w-2/3 w-full">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Bästa bloggbloggen och relationerna hittar ny kunskap.</h1>
+        </div>
+      </div>
+    </section>
+
+
+		<div class="bg-gray-100 py-24 px-12">
+			<div class="container mx-auto">
+
+				<div class="flex flex-wrap">
+
+					<div class="mb-12 lg:mb-0 w-full lg:flex-1">
+
+
+              <section class="text-gray-600 body-font overflow-hidden">
+                <div class="container px-5 mx-auto">
+                  <div class="flex flex-wrap -m-12">
+                    <div class="p-12 md:w-1/2 flex flex-col items-start">
+                      <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./image/kar_1.jpg" alt="blog">
+                      <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">Kärlek</span>
+                      <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Varför är du kär?</h2>
+                      <p class="leading-relaxed mb-8">Ett annat fotavtryck sammanfattar en serie motivation, varför det är kär i en person.</p>
+                      <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+                        <a href="./1_strani.html" class="text-indigo-500 inline-flex items-center">Mer information
+                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                        <span class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                          </svg>2.2K
+                        </span>
+                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>16
+                        </span>
+                      </div>
+                    </div>
+                    <div class="p-12 md:w-1/2 flex flex-col items-start">
+                      <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./image/kar_2.jpg" alt="blog">
+                      <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">Kärlek</span>
+                      <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Svika</h2>
+                      <p class="leading-relaxed mb-8">Människor som inte är redo att älska dig. Det här är det svåraste du måste göra i ditt liv och kommer också att vara det viktigaste.</p>
+                      <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+                        <a href="./2_strani.html" class="text-indigo-500 inline-flex items-center">Mer information
+                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                        <span class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                          </svg>3.2K
+                        </span>
+                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>26
+                        </span>
+                      </div>
+                    </div>
+                    <div class="p-12 md:w-1/2 flex flex-col items-start">
+                      <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./image/kar_3.jpg" alt="blog">
+                      <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">Kärlek</span>
+                      <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Betong och cynisk kärlek vid tiden för antika Rom.</h2>
+                      <p class="leading-relaxed mb-8">I den latinska världen, sammanhang, sociala och kulturella och andra visioner av kärlek. Det är världens centrum och den kristna religionen träffar att fullt ut omvandla konceptet.</p>
+                      <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+                        <a href="./3_strani.html" class="text-indigo-500 inline-flex items-center">Mer information
+                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                        <span class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                          </svg>4.2K
+                        </span>
+                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                          </svg>46
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+
+              
+
+					</div>
+
+					<div class="w-full lg:w-5/12 px-12">
+
+						<div class="bg-white p-4 rounded-lg shadow-lg">
+							<img src="./image/right_kar.jpg" class="w-full h-screen object-contain rounded" />
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+
+
+    <footer class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <a href="./index.html" class="ml-3 text-xl">ulandefo</a>
+          </a>
+        </div>
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Snabb navigering</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Hus</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Integritetspolicy</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:text-gray-800">Kontakta oss</a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gray-100">
+        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <p class="text-gray-500 text-sm text-center sm:text-left">© 2021 ulandefo | Alla rättigheter förbehållna
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+            <a href="https://facebook.com" class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a href="https://twitter.com" class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a href="https://instagram.com" class="ml-3 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a href="https://linkedin.com" class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="fixed z-40 bottom-10 left-0 ml-6 mb-6">
+			<a id="back2Top" href="#" class="text-white block bg-red-800 bg-opacity-50 p-3 rounded-md">
+				<span class="hidden">Return to the top</span>
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+				  </svg>
+			</a>
+		</div>
+		<script src="./java/scrolling.js"></script>
+        
+
+	</body>
+</html>
